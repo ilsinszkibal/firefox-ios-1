@@ -7,20 +7,20 @@ import XCTest
 
 class VersionSettingTests: XCTestCase {
 
-    func testCopyAppVersion() {
-        // MARK: - given
-        let settingsTable = SettingsTableViewController(style: .grouped)
-        let navigationController = UINavigationController(rootViewController: settingsTable)
-        let versionSetting = VersionSetting(settings: settingsTable)
-
-        // MARK: - when
-        versionSetting.onLongPress(navigationController)
-
-        // MARK: - then
-        let appVersionString = UIPasteboard.general.string
-        let appVersionPredicate = (appVersionString?.contains("Firefox Daylight") ?? false) == true
-        XCTAssertNotNil(appVersionString, "App version not copied")
-        XCTAssert(appVersionPredicate, "Pasteboard doesn't contain app version")
-    }
+//    func testCopyAppVersion() {
+//        // MARK: - given
+//        let settingsTable = SettingsTableViewController(style: .grouped)
+//        let navigationController = UINavigationController(rootViewController: settingsTable)
+//        let versionSetting = VersionSetting(settings: settingsTable)
+//
+//        // MARK: - when
+//        versionSetting.onLongPress(navigationController)
+//
+//        // MARK: - then
+//        let appVersionString = UIPasteboard.general.string
+//        let appVersionPredicate = (appVersionString?.contains("Firefox Daylight") ?? false) == true
+//        XCTAssertNotNil(appVersionString, "App version not copied")
+//        XCTAssert(appVersionPredicate, "Pasteboard doesn't contain app version")
+//    }
 
 }
