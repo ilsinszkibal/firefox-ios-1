@@ -1626,9 +1626,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "Generale";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Scegli quali contenuti visualizzare nella pagina iniziale di Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "Torna a questa scheda";
 
@@ -1658,9 +1655,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "Schermata di apertura";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Pagina iniziale di Firefox";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "Sfondo";
@@ -2178,9 +2172,6 @@
 
 /* In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs */
 "TabTray.OtherTabs.Title" = "Altre schede";
-
-/* The title for the tab tray in private mode */
-"TabTray.PrivateTitle" = "Schede anonime";
 
 /* Describes what the Recently Closed tabs behavior is for users unfamiliar with it. */
 "TabTray.RecentlyClosed.Description" = "Le schede saranno disponibili qui per 30 giorni. Trascorso questo tempo, verranno chiuse automaticamente.";
