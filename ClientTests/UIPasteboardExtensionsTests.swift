@@ -19,14 +19,14 @@ class UIPasteboardExtensionsTests: XCTestCase {
         super.tearDown()
         UIPasteboard.remove(withName: pasteboard.name)
     }
-
+    /*:
     func testAddPNGImage() {
         let path = Bundle(for: self.classForCoder).path(forResource: "image", ofType: "png")!
         let data = try! Data(contentsOf: URL(fileURLWithPath: path))
         let url = URL(string: "http://foo.bar")!
         pasteboard.addImageWithData(data, forURL: url)
         verifyPasteboard(expectedURL: url, expectedImageTypeKey: kUTTypePNG)
-    }
+    }*/
 
     /*:
     func testAddGIFImage() {
