@@ -8,26 +8,26 @@ import XCTest
 
 class FirefoxHomeViewControllerTests: XCTestCase {
 
-    func testFirefoxHomeViewController_creationFromBVC_hasNoLeaks() {
-        let profile = MockProfile()
-        let tabManager = TabManager(profile: profile, imageStore: nil)
-        let browserViewController = BrowserViewController(profile: profile, tabManager: tabManager)
-
-        browserViewController.addSubviews()
-        browserViewController.showFirefoxHome(inline: true)
-
-        // BVC cannot be uninstanciated at the moment. This is an issue to fix
-//        trackForMemoryLeaks(browserViewController)
-        trackForMemoryLeaks(browserViewController.firefoxHomeViewController!)
-
-        let expectation = self.expectation(description: "Firefox home page has finished animation")
-
-        browserViewController.hideFirefoxHome {
-            expectation.fulfill()
-        }
-
-        waitForExpectations(timeout: 2, handler: nil)
-    }
+//    func testFirefoxHomeViewController_creationFromBVC_hasNoLeaks() {
+//        let profile = MockProfile()
+//        let tabManager = TabManager(profile: profile, imageStore: nil)
+//        let browserViewController = BrowserViewController(profile: profile, tabManager: tabManager)
+//
+//        browserViewController.addSubviews()
+//        browserViewController.showFirefoxHome(inline: true)
+//
+//        // BVC cannot be uninstanciated at the moment. This is an issue to fix
+////        trackForMemoryLeaks(browserViewController)
+//        trackForMemoryLeaks(browserViewController.firefoxHomeViewController!)
+//
+//        let expectation = self.expectation(description: "Firefox home page has finished animation")
+//
+//        browserViewController.hideFirefoxHome {
+//            expectation.fulfill()
+//        }
+//
+//        waitForExpectations(timeout: 2, handler: nil)
+//    }
 
     func testFirefoxHomeViewController_simpleCreation_hasNoLeaks() {
         let profile = MockProfile()

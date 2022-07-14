@@ -34,6 +34,7 @@ class UIImageViewExtensionsTests: XCTestCase {
         XCTAssertEqual(imageView.image, FaviconFetcher.defaultFavicon, "The default favicon should be applied when no information is given about the icon")
     }
 
+    /*:
     func testAsyncSetIcon() {
         let originalImage = UIImage(named: "bookmark")!
 
@@ -51,7 +52,7 @@ class UIImageViewExtensionsTests: XCTestCase {
         }
         waitForExpectations(timeout: 5, handler: nil)
     }
-
+     
     func testDefaultIcons() {
         let favImageView = UIImageView()
 
@@ -70,5 +71,5 @@ class UIImageViewExtensionsTests: XCTestCase {
             expect.fulfill()
         }
         waitForExpectations(timeout: 5, handler: nil)
-    }
+    }*/
 }

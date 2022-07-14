@@ -92,6 +92,7 @@ class TabMetadataManagerTests: XCTestCase {
         waitForExpectations(timeout: 5, handler: nil)
     }
 
+    /*:
     func testUpdateObservationTitle_ForNavigatedToDifferentURL() throws {
         emptyDB()
         let stringUrl = "https://www.developer.org/"
@@ -116,7 +117,7 @@ class TabMetadataManagerTests: XCTestCase {
             expectation.fulfill()
         }
         waitForExpectations(timeout: 5, handler: nil)
-    }
+    }*/
 
     func testNotUpdateObservationTitle_ForOpenInNewTab() throws {
         emptyDB()
