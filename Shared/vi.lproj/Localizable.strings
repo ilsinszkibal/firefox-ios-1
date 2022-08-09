@@ -1626,9 +1626,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "Tổng quát";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Chọn nội dung bạn sẽ thấy trên trang chủ Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "Trang đã xem gần đây";
 
@@ -1658,9 +1655,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "Màn hình khi mở";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Trang chủ Firefox";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "Hình nền";
@@ -1720,7 +1714,7 @@
 "Settings.Homepage.Shortcuts.ShortcutsToggle.v100" = "Lối tắt";
 
 /* This string is the title of the toggle to disable the sponsored shortcuts functionnality which can be enabled in the shortcut sections. This toggle is in the settings page. */
-"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "Các lối tắt được tài trợ";
+"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "Lối tắt được tài trợ";
 
 /* Toggled OFF to hide the shortcuts section */
 "Settings.Homepage.Shortcuts.ToggleOff.v100" = "Tắt";
@@ -2011,7 +2005,7 @@
 "Settings.WebsiteData.ButtonEdit" = "Chỉnh sửa";
 
 /* Button shows all websites on website data tableview */
-"Settings.WebsiteData.ButtonShowMore" = "Xem thêm";
+"Settings.WebsiteData.ButtonShowMore" = "Hiện thêm";
 
 /* Description of the confirmation dialog shown when a user tries to clear their private data. */
 "Settings.WebsiteData.ConfirmPrompt" = "Hành động này sẽ xóa tất cả dữ liệu trang web của bạn. Nó không thể hoàn tác được.";
@@ -2093,7 +2087,7 @@
 "Sync.SyncingEllipsis.Label" = "Đang đồng bộ hóa…";
 
 /* Panel accessibility label */
-"Synced Tabs" = "Các thẻ đã đồng bộ";
+"Synced Tabs" = "Thẻ đã đồng bộ hóa";
 
 /* The Bookmark sync component, used in SyncState.Partial.Title */
 "SyncState.Bookmark.Title" = "Dấu trang";
@@ -2178,9 +2172,6 @@
 
 /* In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs */
 "TabTray.OtherTabs.Title" = "Các thẻ khác";
-
-/* The title for the tab tray in private mode */
-"TabTray.PrivateTitle" = "Các thẻ riêng tư";
 
 /* Describes what the Recently Closed tabs behavior is for users unfamiliar with it. */
 "TabTray.RecentlyClosed.Description" = "Các thẻ có sẵn ở đây trong 30 ngày. Sau thời gian đó, các thẻ sẽ tự động bị đóng.";
